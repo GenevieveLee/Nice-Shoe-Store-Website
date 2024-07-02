@@ -1,0 +1,246 @@
+.footer {
+  clear: both;
+  z-index: 1;
+}
+
+#cartTable {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#cartTable th {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.quantity-input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.quantity-selector input[type="button"] {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #db4444;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.quantity-selector input[type="button"]:hover {
+  background-color: #e07575;
+}
+
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#returnShop {
+  background-color: white;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 5px;
+  color: black;
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 8vw;
+  font-weight: bold;
+}
+
+#returnShop:hover {
+  background-color: #db4444;
+  color: white;
+  border-style: hidden;
+  cursor: pointer;
+}
+
+#updateCart {
+  background-color: white;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 5px;
+  color: black;
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 55vw;
+  font-weight: bold;
+}
+
+#updateCart:hover {
+  background-color: #db4444;
+  color: white;
+  border-style: hidden;
+  cursor: pointer;
+}
+
+#cartButton {
+  padding-bottom: 10vh;
+}
+
+#couponCode {
+  border-style: solid;
+  border-radius: 5px;
+  height: 60px;
+  width: 250px;
+  margin-left: 8vw;
+}
+
+#couponCode::placeholder {
+  padding-left: 10px;
+}
+
+#applyButton {
+  background-color: #db4444;
+  border-style: hidden;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+#applyButton:hover {
+  background-color: #e07575;
+  cursor: pointer;
+}
+
+.applyCouponArea {
+  float: left;
+  width: 68%;
+  position: relative;
+}
+
+#closeButton {
+  background-color: #db4444;
+  border-style: hidden;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  height: 45px;
+  margin-left: 8vw;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#closeButton:hover {
+  background-color: #e07575;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+#couponPopUp {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.delete-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.billing {
+  float: right;
+  width: 32%;
+  position: relative;
+  margin-top: -10vh;
+  margin-left: 70vw;
+  margin-bottom: 5vh;
+}
+
+#billingTable {
+  width: 200px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+#billingTable tr {
+  height: 2vh;
+}
+
+#checkoutButton {
+  background-color: #db4444;
+  border-style: hidden;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+#checkoutButton:hover {
+  background-color: #e07575;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  #cartTable {
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 5vw;
+  }
+
+  #cartTable th {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #returnShop {
+    margin-top: 5vh;
+    margin-left: 8vw;
+  }
+
+  #updateCart {
+    margin-bottom: 10vh;
+    position: relative;
+    top: -11vh;
+    left: 8vw;
+  }
+
+  .applyCouponArea {
+    margin-right: 10vw;
+    top: -20vh;
+  }
+
+  .billing {
+    top: -5vh;
+    right: 15vw;
+    margin-bottom: 5vh;
+  }
+
+  #closeButton {
+    margin-left: 16vw;
+    margin-top: 10px;
+  }
+
+  #couponPopUp {
+    width: 59vw;
+  }
+}

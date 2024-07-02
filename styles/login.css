@@ -1,0 +1,121 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 5%;
+}
+
+.login .loginImg {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.login .loginImg img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.login .loginForm {
+  box-sizing: border-box;
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  margin-left: 15%;
+}
+
+.login .loginForm td {
+  text-align: left;
+}
+
+.login form {
+  margin: 2%;
+}
+
+.login p,
+.login input {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.login h5 {
+  color: black;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.login form {
+  margin-bottom: 10%;
+}
+
+.login input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  width: 120%;
+  padding: 14px;
+  border-radius: 0;
+}
+
+.login button {
+  background-color: #db4444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 120%;
+}
+
+.login button:hover {
+  background-color: #e07575;
+}
+
+@media only screen and (max-width: 768px) {
+  .login {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .login .loginImg {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 24px 0;
+  }
+
+  .login .loginForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0;
+  }
+
+  .login form {
+    margin: 0;
+  }
+
+  .login p,
+  .login input {
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 12px;
+  }
+
+  .login h5 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .login button {
+    padding: 5px 20px;
+  }
+
+  .login input {
+    padding: 10px;
+  }
+}

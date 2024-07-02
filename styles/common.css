@@ -1,0 +1,58 @@
+.path {
+  padding-top:1vh;
+  padding-left: 1vw;
+}
+
+.navigation2 {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation {
+  color: grey;
+  text-decoration: none;
+}
+
+.title {
+  color: black;
+  margin-bottom: 5px;
+  font-size: 30px;
+  padding: 6px 16px 6px 0px;
+  margin: 0.8vw 10vw;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color1 {
+  color: black;
+}
+
+.color2 {
+  color: gray;
+}
+
+.color3 {
+  color: lightgrey;
+}
+
+.color4 {
+  color: #db4444;
+}
+
+.color5 {
+  color: #e07575;
+}
+
+.password-toggle {
+  cursor: pointer;
+  color: #db4444;
+}

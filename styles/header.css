@@ -1,0 +1,156 @@
+#headerSearch::placeholder {
+  left: 3px;
+  top: 3px;
+  position: static;
+}
+
+.topbanner {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.topbanner p {
+  font-size: 12px;
+  margin: 5px;
+}
+
+.topbanner a,
+.topbanner a:visited {
+  color: white;
+}
+
+.topbanner a:hover {
+  color: lightgrey;
+}
+
+.topbanner a:active {
+  color: darkgray;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  padding-top: 8px;
+}
+
+.topnav .logo {
+  float: left;
+  margin-right: 16px;
+}
+
+.topnav button {
+  float: right;
+  padding: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border: none;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.topnav button:hover {
+  background-color: grey;
+}
+
+.topnav button:active {
+  box-shadow: 0 5px darkgrey;
+  transform: translateY(1px);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration-line: underline;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+.searchbar {
+  display: right;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.searchbar input[type="text"] {
+  border: none;
+  padding: 8px;
+  font-size: 17px;
+  border-radius: 12px;
+  background-color: lightgrey;
+}
+
+.menuItems2 {
+  display: block;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .topbanner {
+    padding: 5px;
+  }
+
+  .topbanner p {
+    font-size: 8px;
+    margin: 2px;
+  }
+
+  .topnav {
+    height: 60px;
+  }
+
+  .topnav button {
+    float: left;
+  }
+
+  .topnav .logo {
+    display: none;
+  }
+
+  .topnav button:active {
+    box-shadow: 0 5px darkgrey;
+    transform: translateY(1px);
+  }
+
+  .searchbar {
+    display: left;
+  }
+
+  .searchbar input[type="text"] {
+    width: 60%;
+    float: none;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+  }
+
+  .menuItems2 {
+    display: none;
+  }
+
+  .menu-icon {
+    margin-left: 16px;
+    display: block;
+  }
+}

@@ -1,0 +1,121 @@
+.footer {
+  clear: both;
+  z-index: 1;
+}
+
+.custom-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.left-column h4 {
+  padding-left: 4vw;
+}
+
+.left-column {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 3vh;
+  margin-left: 3vw;
+}
+
+.right-column {
+  float: right;
+  width: 70%;
+  box-sizing: border-box;
+  padding-left: 3vw;
+}
+
+.input {
+  width: 298px;
+  border-radius: 7px;
+  background-color: #eceeee;
+  border-style: hidden;
+  height: 50px;
+}
+
+::placeholder {
+  left: 10px;
+  position: fixed;
+}
+
+.text {
+  font-weight: bold;
+  position: relative;
+  left: 5px;
+}
+
+input#cancelButton {
+  background-color: white;
+  border-style: hidden;
+  border-radius: 5px;
+  color: black;
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 295px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input#cancelButton:hover {
+  background-color: lightgrey;
+}
+
+input#submitButton {
+  background-color: #db4444;
+  border-style: hidden;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input#submitButton:hover {
+  background-color: #e07575;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+}
+
+#errEmail {
+  color: red;
+  font-weight: bold;
+}
+
+.password {
+  color: #e07575;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-column {
+    padding-left: 36vw;
+    width: 90%;
+  }
+
+  .left-column h4 {
+    padding-left: 6vw;
+  }
+
+  .right-column {
+    width: 90%;
+    margin-right: 2vw;
+  }
+
+  input#submitButton {
+    margin-bottom: 30px;
+  }
+}
